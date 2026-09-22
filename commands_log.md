@@ -51,6 +51,8 @@ This document explains the key commands executed during this project and their p
 ## 12 check active share list on Samba Server
    Commands: smbclient -L localhost -U %
 ## 13 This commands to check shares properly loaded or  not
+## 14 This commands using for show content Administrator 
+   smbclient //localhost/CompanyShare -U Administrator
    sudo testparm -s
 ## 14 This commands for check Active SMB Connections
    sudo smbstatus
