@@ -41,4 +41,12 @@ This document explains the key commands executed during this project and their p
 ## 8. Configuration Validation
 - **Command:** `sudo testparm`
   - **Description:** Checks the `/etc/samba/smb.conf` file for syntax errors and displays loaded shares.
+
+## 9. Package Cache Update & Broken Dependencies Fix:
+    commands: sudo apt --fix-broken install
+## 10.Missing Repository/Universe Repositories Enable
+   Commands: sudo add-apt-repository universe && sudo apt update
+## 11. Samba/Winbind cache conf file clean
+   commands: sudo apt purge samba samba-common winbind
+
 EOF

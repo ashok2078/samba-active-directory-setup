@@ -1,0 +1,2 @@
+sudo cp /etc/samba/smb.conf configs/smb.conf.example
+sudo chown $USER:$USER configs/smb.conf.example
