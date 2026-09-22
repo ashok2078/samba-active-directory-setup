@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Ubuntu Samba Active Directory Domain Controller & File Server
 
 Professional guide and deployment documentation for setting up an enterprise-grade Active Directory Domain Controller (DC) and secure File Sharing Server on Ubuntu Linux.
