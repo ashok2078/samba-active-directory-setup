@@ -48,5 +48,12 @@ This document explains the key commands executed during this project and their p
    Commands: sudo add-apt-repository universe && sudo apt update
 ## 11. Samba/Winbind cache conf file clean
    commands: sudo apt purge samba samba-common winbind
+## 12 check active share list on Samba Server
+   Commands: smbclient -L localhost -U %
+## 13 This commands to check shares properly loaded or  not
+   sudo testparm -s
+## 14 This commands for check Active SMB Connections
+   sudo smbstatus
+   
 
-EOF
+
